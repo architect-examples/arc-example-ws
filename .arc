@@ -7,9 +7,3 @@ test-ws
 @http
 get /
 get /js/:file
-
-@tables
-data
-  scopeID *String
-  dataID **String
-  ttl TTL
