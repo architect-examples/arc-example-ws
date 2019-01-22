@@ -9,11 +9,12 @@ ws.onmessage = message
 ws.onerror = console.log
 
 function open() {
-  main.innerHTML = 'Opened'
+  let ts = new Date(Date.now()).toISOString()
+  main.innerHTML = `<p><b><code>${ts} - opened</code></b></p>`
 }
 
 function close() {
-  main.innerHTML = 'Closed'
+  main.innerHTML = 'Closed <a href=/>reload</a>'
 }
 
 function message(e) {
