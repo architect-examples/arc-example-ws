@@ -8,9 +8,10 @@
   },
   "keywords": [],
   "author": "Brian LeRoux <b@brian.io>",
+  "repository": "https://github.com/architect-examples/arc-example-ws",
   "license": "Apache-2.0",
   "dependencies": {
-    "@architect/architect": "^5.9.16",
-    "@architect/functions": "^3.0.5"
+    "@architect/architect": "^6.0.20",
+    "@architect/functions": "^3.4.4"
   }
 }
