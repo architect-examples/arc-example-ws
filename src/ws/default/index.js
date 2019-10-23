@@ -12,7 +12,7 @@ exports.handler = async function ws(event) {
   let message = JSON.parse(event.body)
   let text = `${timestamp} - Echoing ${message.text}`
 
-  await arc.ws(event).send({
+  await arc.ws.send({
     id: connectionId,
     payload: {text}
   })
