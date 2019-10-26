@@ -7,12 +7,12 @@ exports.handler = async function ws(event) {
 
   console.log('ws-default called with', event)
 
-  let ts = new Date(Date.now()).toISOString()
+  let timestamp = new Date().toISOString()
   let connectionId = event.requestContext.connectionId
   let message = JSON.parse(event.body)
-  let text = `${ts} - ${message.text}`
+  let text = `${timestamp} - Echoing ${message.text}`
 
-  await arc.ws(event).send({
+  await arc.ws.send({
     id: connectionId,
     payload: {text}
   })

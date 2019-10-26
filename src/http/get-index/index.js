@@ -11,7 +11,7 @@ exports.handler = async function http(req) {
     body: `<!doctype html>
 <html>
 <body>
-<h1>Web sockets</h1>
+<h1>Web sockets echo server demo</h1>
 <main>Loading...</main>
 <input id=message type=text placeholder="Enter message" autofocus>
 <script>

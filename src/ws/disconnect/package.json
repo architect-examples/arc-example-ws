@@ -1,5 +1,5 @@
 {
-  "name": "test-ws-get-index",
+  "name": "test-ws-ws-disconnect",
   "dependencies": {
     "@architect/functions": "^3.4.4"
   }
