@@ -11,7 +11,7 @@
   "repository": "https://github.com/architect-examples/arc-example-ws",
   "license": "Apache-2.0",
   "dependencies": {
-    "@architect/architect": "^6.0.20",
-    "@architect/functions": "^3.4.4"
+    "@architect/architect": "^6.2.4",
+    "@architect/functions": "^3.7.6"
   }
 }

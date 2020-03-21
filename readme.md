@@ -1,15 +1,14 @@
 # arc-example-ws
 
-Example app using web sockets w Architect 5.x.
+Example app using web sockets w Architect 6.x.
 
 ## Local demo
 
 ```bash
 npm i
-npx hydrate
-npx sandbox 
+arc sandbox
 ```
 
 ## Deploying to Lambda
 
-If you want to deploy to Lambda you need to add an `@aws` entry (https://arc.codes/reference/aws) and staging and production entries for `@static` (https://arc.codes/reference/static) in `.arc`
+If you want to deploy to Lambda you may need to add an `@aws` entry (https://arc.codes/reference/arc/aws) in your `.arc` file. Also be sure to update `src/http/get-index/get-web-socket-url.js` after your first deploy with real urls.

@@ -8,3 +8,5 @@ test-ws
 
 @http
 get /
+
+@static
