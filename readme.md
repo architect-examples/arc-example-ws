@@ -1,6 +1,6 @@
-# arc-example-ws
+# Arc Websockets Example
 
-Example app using web sockets w Architect 6.x.
+An `echo` server using web sockets for Architect 8.x.
 
 ## Local demo
 
