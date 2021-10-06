@@ -1,6 +1,0 @@
-{
-  "name": "test-ws-ws-connect",
-  "dependencies": {
-    "@architect/functions": "^3.7.6"
-  }
-}

@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"npx arc sandbox"
   },
   "keywords": [],
   "author": "Brian LeRoux <b@brian.io>",
   "repository": "https://github.com/architect-examples/arc-example-ws",
   "license": "Apache-2.0",
   "dependencies": {
-    "@architect/architect": "^8.3.7",
-    "@architect/functions": "^3.13.8"
+    "@architect/architect": "^9.1.0",
+    "@architect/functions": "^4.0.0"
   }
 }

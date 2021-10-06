@@ -1,6 +1,0 @@
-{
-  "name": "test-ws-get-index",
-  "dependencies": {
-    "@architect/functions": "^3.7.6"
-  }
-}
