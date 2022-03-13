@@ -1,5 +1,5 @@
 let arc = require("@architect/functions");
-let static = arc.http.helpers.static;
+let static = arc.static;
 let getURL = require("./get-web-socket-url");
 
 /**
