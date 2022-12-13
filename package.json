@@ -12,6 +12,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@architect/architect": "^10.1.0",
-    "@architect/functions": "^5.0.4"
+    "@architect/functions": "^5.3.2"
   }
 }
